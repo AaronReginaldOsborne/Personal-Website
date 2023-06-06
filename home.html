@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- fav icon -->
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <!-- custom css -->
+  <link href="./css/style.css" rel="stylesheet" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+
+  <title>A Gold Fish</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <section id="nav_bar">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" height="70px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav col-lg-12 justify-content-lg-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- The video -->
+  <video autoplay muted loop id="background_video">
+    <source src="assets/goldfishswimming.mp4" type="video/mp4" />
+  </video>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="container">
+      <div class="col-lg-6">
+        <h1 class="display-3 fw-bold text-white lh-1 mb-3">
+          Hello, I'm Aaron Osborne
+        </h1>
+        <p class="lead text-white">I'm a Software Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section id="portfolio">
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 class="fw-bolder">Work</h1>
+          <p class="lead fw-normal text-muted mb-0">portfolio</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225"
+                src="https://camo.githubusercontent.com/e526d0c44e40f9d11ec6332106ce631076cf1857561bafc872185cadc1412eb6/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f65427466514a2d6f737238397a78374342453853705a6c37433579596662724149776f59495130337a46544367396d3464766d44786942315876506643685f757a6257453d77313932302d683937392d7277" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Final project from TD</b><br />An android application
+                  revolving around augmented reality and virtual reality
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Sorce Code
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">Android Application</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225" src="./assets/yourtaxi.jpg" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Your Taxi dashboard application</b><br />A mobile
+                  application that provides real-time notification to drivers
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary disabled">
+                      NDA
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">Flutter</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225" src="./assets/teashop.PNG" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Tea Shop Desktop Application</b><br />A desktop app to
+                  play around with the WPF framework
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Download
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Sorce Code
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">WPF</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225" src="./assets/RWM.PNG" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Rounthwaite Wealth Management Desktop App</b><br />A desktop app to
+                  provide clients with a visual representation on data
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Download
+                    </button>
+                    <a href="https://github.com/AaronReginaldOsborne/RWM_WPF">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Sorce Code
+                      </button>
+                    </a>
+                  </div>
+                  <small class="text-body-secondary">WPF</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225" src="./assets/cllapp.JPG" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Community Living London Mobile App</b><br />A mobile app to
+                  help save each employee 2 hours of work every day
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary disabled">
+                      NDA
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">Android Application</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" width="100%" height="225" src="./assets/brouwerHay.JPG" />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Brouwer Hay Deliveries Mobile and Desktop</b><br>A full scale application that provides real time
+                  data on inventory and purchases.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary disabled">
+                      NDA
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">Xamarin and WPF</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- temp 
+              <div class="col">
+              <div class="card shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <!-- <section id="clients">
+    <div class="album py-5 bg-body-tertiary">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12">
+            <img src="./assets/yourtaxilogo.png" alt="YourTaxi logo" height="30">
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="./assets/clllogo.jpg" alt="community living london logo" height="30">
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="./assets/rounthwaitewealthmanagementlogo.png" alt="rounthwaitewealthmanagementlogo" height="30">
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="./assets/brouwer hey deliveries.jpg" alt="brouwer hey deliveries logo" height="30">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section> -->
+
+  <!-- About Us -->
+  <section id="about">
+    <div class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h1 class="text-body-emphasis">About</h1>
+        <div class="row">
+          <p class="fs-5 col-md-8">As a versatile software developer, I am passionate about creating efficient,
+            scalable,
+            and robust software solutions. With a strong foundation in software development principles and a deep
+            understanding of programming languages and frameworks, I excel at designing and implementing applications
+            that
+            meet the diverse needs of clients and end users. I am committed to staying up to date with emerging
+            technologies and best practices, allowing me to deliver high-quality code and contribute to the success of
+            software projects.</p>
+          <div class="col-md-4">
+            <img src="./assets/working on laptop.png" class="img-fluid rounded" />
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section id="tools">
+    <div class="bg-body-tertiary py-5">
+      <div class="container">
+        <h1 class="text-body-emphasis text-center py-5">Technical Skills</h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <h2 class="pb-2">Front-End Technology</h2>
+            <h5 class="fw-light">HTML</h5>
+            <h5 class="fw-light">CSS</h5>
+            <h5 class="fw-light">SCSS/SASS</h5>
+            <h5 class="fw-light">ReactJS</h5>
+            <h5 class="fw-light">jQuery</h5>
+            <h5 class="fw-light">Xaml</h5>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="pb-2">Back-End Technology</h2>
+            <h5 class="fw-light">Node</h5>
+            <h5 class="fw-light">Express</h5>
+            <h5 class="fw-light">SQL</h5>
+            <h5 class="fw-light">MongoDB</h5>
+            <h5 class="fw-light">Mongoose</h5>
+            <h5 class="fw-light">Firebase</h5>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="pb-2">Other</h2>
+            <h5 class="fw-light">WPF</h5>
+            <h5 class="fw-light">Flutter</h5>
+            <h5 class="fw-light">Kotlin</h5>
+            <h5 class="fw-light">C#</h5>
+            <h5 class="fw-light">Java</h5>
+            <h5 class="fw-light">ASP.net</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <div class="container px-5 my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 rounded-3 shadow-lg">
+            <div class="card-body p-4">
+              <div class="text-center">
+                <div class="h1 fw-light">Contact</div>
+                <p class="mb-4 text-muted">Please reach out to me if you're interested in collaborating. I would be
+                  thrilled to work with you.</p>
+              </div>
+
+              <form id="contactForm" data-sb-form-api-token="b49eee1d-b4e5-49e1-8881-c6fd29e19447">
+
+                <!-- Name Input -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                  <label for="name">Name</label>
+                  <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
+                    data-sb-validations="required,email" />
+                  <label for="emailAddress">Email Address</label>
+                  <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.
+                  </div>
+                  <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.
+                  </div>
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
+                    data-sb-validations="required"></textarea>
+                  <label for="message">Message</label>
+                  <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                </div>
+
+                <!-- Submit success message -->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <p>To activate this form, sign up at</p>
+                    <a
+                      href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+                </div>
+
+                <!-- Submit error message -->
+                <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-grid">
+                  <button class="btn btn-dark btn-lg" id="submitButton" type="submit">Submit</button>
+                </div>
+              </form>
+              <!-- End of contact form -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript -->
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
